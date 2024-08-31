@@ -1,0 +1,219 @@
+body, html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*.loader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.90);
+    animation: loader 0.01s;
+    animation-delay: 1.75s;
+    animation-fill-mode: both;
+    z-index: 10000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  
+    &__item {
+      height: 1rem;
+      width: 1rem;
+      border-radius: 1rem;
+      animation: jump 1s;
+      animation-iteration-count: 1;
+  
+      &Container {
+        display: flex;
+        width: 5rem;
+        justify-content: space-between;
+      }
+  
+      &--1 {
+        background-color: $color-primary;
+      }
+    
+      &--2 {
+        background-color: $color-secondary;
+        animation-delay: 0.25s;
+      }
+    
+      &--3 {
+        background-color: $color-tertiary;
+        animation-delay: 0.5s;
+      }
+    }
+  
+    
+}*/
+.header_logo{
+    font-family: "Shrikhand",cursive;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    padding-left: 3rem;
+    padding-top: 0.2rem;
+    position: relative;
+    height: 90px;
+    width: 100%;
+}
+/*.logo{
+    padding-left: 50rem;
+    height: 2rem;
+    padding-top: 1.5rem;
+}*/
+.heart_icon:hover{
+    background-color: linear-gradient(to top, rgba(147,86,220,0.9),rgba(255,121,218,0.9));
+}
+.lieu{
+    width: 100%;
+    padding-left: 51rem;
+    background-color: #f3f3f3;
+    justify-content: center;
+    padding-top: 1.5rem;
+    height: 45px;
+}
+.lieu_text{
+    font-weight: 700;
+    padding: 1rem;
+    color: #353535;
+}
+.text_reservation{
+    padding-left: 45rem;
+}
+.descr_reservation{
+    background-color: #fdfbfb;
+    
+    margin: auto;
+}
+.para_reservation{
+    padding-left: 42rem;
+}
+p{
+    padding-bottom: 2rem;
+}
+.btn_explore{
+    background-image: linear-gradient(to top, rgba(147,86,220,0.9),rgba(255,121,218,0.9));
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    color: #ffff;
+    padding: 12px;
+    padding-right: 13px;
+    margin-left: 49rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0.25rem 0.25rem 10px;
+}
+.text{
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+.flex_card1{
+    display: flex;
+    margin: auto;
+    position: relative;
+    padding-left: 7rem;
+}
+.flex_card2{
+    display: flex;
+    margin: auto;
+    position: relative;
+    padding-left: 7rem;
+}
+.restaurants_title{
+    padding-left: 8rem;
+    padding-top: 3rem;
+}
+.card{
+    background-color: #ffff;
+    border-radius: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 700px;
+    margin: 1rem;
+    position: relative;
+}
+.card_img{
+    height: 12rem;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+}
+.card_badge{
+    background-color: #99e2d0;
+    color: #1b6150;
+    position: absolute;
+    padding: 0.5rem;
+    top: 1rem;
+    right: 1rem;
+}
+.card__footer{
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.card__content{
+    flex: 1;
+}
+.card__title{
+    margin: 0 0 .25rem;
+}
+.part_fonct{
+    display: flex;
+    align-items: center;
+    padding-left: 21rem;
+    /*color: #9356dc;*/
+}
+.text_fonct{
+    padding-left: 20rem;
+}
+.fonct{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 380px;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.125) 0.25rem 0.25rem 0.5rem;
+    background-color: rgb(246, 246, 246);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+.icon_fonc{
+    color: rgb(126, 126, 126);
+    padding-left: 1rem;
+}
+.restaurants{
+    background-color: #f6f6f6;
+    margin-top: 1rem;
+    padding-left: 12rem;
+}
+.footer{
+    background-color: #353535;
+    height: 170px;
+}
+.footer, .container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+}
+.footer__logo {
+    color: #fff;
+    font-family: Shrikhand, "cursive";
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+}
+.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem;
+}
+.footer__link{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
